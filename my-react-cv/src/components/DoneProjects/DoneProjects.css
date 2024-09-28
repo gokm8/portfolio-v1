@@ -1,0 +1,10 @@
+.doneProjects__hero-container {
+    /* Push the content below - down. */
+    margin-bottom: 3rem;
+}
+
+.doneProjects__cards {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #27272a;
+}
