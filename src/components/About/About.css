@@ -1,0 +1,17 @@
+.about__grid-container {
+    /* Push the content below - down. */
+    margin-bottom: 25px;
+
+    padding: 15px;
+
+    /* padding: 2rem; */
+
+    border-radius: 10px;
+    border: 2px solid #27272a;
+}
+
+.about__logo {
+    background-color: #16423c;
+    height: 100%;
+    width: 100%;
+}
