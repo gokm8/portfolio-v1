@@ -9,34 +9,34 @@ const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif', // Standard skrifttype
-        fontSize: 14, // Basis skrifttype størrelse, kan justeres
+        fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+        fontSize: 14,
         h1: {
-            fontSize: "2rem", // Størrelse for h1
+            fontSize: "2rem",
         },
         h2: {
-            fontSize: "1.75rem", // Størrelse for h2
+            fontSize: "1.75rem",
         },
         h3: {
-            fontSize: "1.5rem", // Størrelse for h3
+            fontSize: "1.5rem",
         },
         h4: {
-            fontSize: "1.25rem", // Størrelse for h4
+            fontSize: "1.25rem",
         },
         h5: {
-            fontSize: "1rem", // Størrelse for h5
+            fontSize: "1rem",
         },
         h6: {
-            fontSize: "0.875rem", // Størrelse for h6
+            fontSize: "0.875rem",
         },
         subtitle1: {
-            fontSize: "0.875rem", // Størrelse for subtitle1
+            fontSize: "0.875rem",
         },
         body1: {
-            fontSize: "0.875rem", // Størrelse for body1
+            fontSize: "0.875rem",
         },
         body2: {
-            fontSize: "0.75rem", // Størrelse for body2
+            fontSize: "0.75rem",
         },
     },
 });

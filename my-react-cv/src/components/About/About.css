@@ -1,16 +1,10 @@
 .about__grid-container {
-    /* Push the content below - down. */
     margin-bottom: 25px;
-
     padding: 15px;
-
-    /* padding: 2rem; */
-
     border-radius: 10px;
     border: 2px solid rgba(39, 39, 42, 0.5); /* 50% opacity */
 }
 
-/* Standard size */
 .about__image {
     width: 80px;
     height: 80px;
@@ -19,7 +13,6 @@
     margin-top: 1rem;
 }
 
-/* Larger size for bigger screens */
 @media (min-width: 1441px) {
     .about__image {
         width: 100px;
@@ -34,21 +27,18 @@
     }
 }
 
-/* For mobile enheder (op til 767px) */
 @media (max-width: 767px) {
     .about__first-section {
         padding-left: 10px;
     }
 }
 
-/* For laptops (768px til 1440px) */
 @media (min-width: 768px) and (max-width: 1440px) {
     .about__first-section {
         padding-left: 15px;
     }
 }
 
-/* Smartphones (up to 600px) */
 @media (max-width: 600px) {
     .about__image {
         width: 69px;

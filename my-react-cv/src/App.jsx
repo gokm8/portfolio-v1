@@ -116,7 +116,6 @@ const doneProjectsData = [
 const App = () => {
     return (
         <>
-            {/* <Navbar /> */}
             <About personalInformation={personalInfo} />
             <Education education={educationData} />
             <Skills skills={skillsData} />

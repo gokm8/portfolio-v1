@@ -1,13 +1,14 @@
+// Imports
 import React from "react";
 import "./DoneProjects.css";
 import Grid from "@mui/material/Grid2";
-
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 import { Box } from "@mui/material";
+import dummy from "../../assets/dummies/todo-list.png";
 
 function DoneProjects({ doneProject }) {
     return (
@@ -27,12 +28,15 @@ function DoneProjects({ doneProject }) {
                             className="doneProjects__cards">
                             <Card sx={{ maxWidth: 345 }}>
                                 <CardActionArea>
+                                    {/* This is the image of the cards */}
                                     <CardMedia
                                         component="img"
                                         height="140"
-                                        image="src/assets/dummies/todo-list.png"
+                                        image={dummy}
                                         alt="project name"
                                     />
+
+                                    {/* This is the content of the cards */}
                                     <CardContent>
                                         <Typography
                                             gutterBottom

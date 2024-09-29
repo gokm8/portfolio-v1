@@ -1,24 +1,26 @@
+// Imports
 import React from "react";
 import "./About.css";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid2";
 import { LinkedIn, GitHub, Email } from "@mui/icons-material";
-import { palette } from "@mui/system";
 import { Box } from "@mui/material";
-import aboutMe from "../../assets/about/about__me.jpg";
+import portrait from "../../assets/about/about__me.jpg";
 
 const About = ({ personalInformation }) => {
     return (
         <Box className="about__grid-container">
             <Grid container spacing={2}>
+                {/* IMAGE */}
                 <Grid size={{ xs: 3, md: 2 }}>
                     <img
-                        src={aboutMe}
+                        src={portrait}
                         alt="About me"
                         className="about__image"
                     />
                 </Grid>
-                {/* <Box> */}
+
+                {/* NAME + WHO I AM */}
                 <Grid
                     size={{ xs: 9, md: 10 }}
                     sx={{ marginTop: "28px" }}
@@ -31,7 +33,6 @@ const About = ({ personalInformation }) => {
                         gutterBottom>
                         {personalInformation.name}
                     </Typography>
-                    {/* <hr /> */}
                     <Typography
                         variant="subtitle1"
                         sx={{ color: "white.main" }}
@@ -40,7 +41,8 @@ const About = ({ personalInformation }) => {
                         SDU
                     </Typography>
                 </Grid>
-                {/* </Box> */}
+
+                {/* CONTACT INFORMATION */}
                 <Grid size={{ xs: 8, md: 10 }}>
                     <Box
                         sx={{
@@ -57,6 +59,7 @@ const About = ({ personalInformation }) => {
                         </Typography>
                     </Box>
                 </Grid>
+
                 {/* SOCIAL MEDIA ICONS */}
                 <Grid size={{ xs: 4, md: 2 }}>
                     <Box

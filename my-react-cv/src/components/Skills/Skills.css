@@ -1,9 +1,7 @@
 .skills__hero-container {
-    /* Push the content below - down. */
     margin-bottom: 3rem;
 }
 
-/* Apply to all devices except smartphones (min-width: 600px) */
 @media (min-width: 600px) {
     .skills__darkness-text-icon {
         filter: brightness(0.5);
@@ -15,14 +13,12 @@
     }
 }
 
-/* Apply specific styles for smartphones (max-width: 600px) */
 @media (max-width: 600px) {
     .skills__darkness-text-icon {
         filter: brightness(0.5);
         transition: filter 0.3s ease;
     }
 
-    /* Change filter on touch (focus) or while pressing (active) */
     .skills__darkness-text-icon:focus,
     .skills__darkness-text-icon:active {
         filter: brightness(1);
