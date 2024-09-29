@@ -22,7 +22,7 @@ const Skills = ({ skills }) => {
                             sx={{
                                 display: "flex",
                                 flexDirection: "column",
-                                alignItems: "start",
+                                alignItems: "center",
                             }}>
                             <img
                                 src={skill.img}
