@@ -20,38 +20,53 @@ function DoneProjects({ doneProject }) {
                 completed projects 🏗️
             </Typography>
             <Box>
-                <Grid container spacing={3}>
+                <Grid
+                    container
+                    spacing={3}
+                    justifyContent="center"
+                    alignItems="center">
                     {doneProject.map((doneProjects, index) => (
                         <Grid
                             size={{ xs: 12, md: 6 }}
                             key={index}
                             className="doneProjects__cards">
-                            <Card sx={{ maxWidth: 345 }}>
-                                <CardActionArea>
-                                    {/* This is the image of the cards */}
-                                    <CardMedia
-                                        component="img"
-                                        height="140"
-                                        image={dummy}
-                                        alt="project name"
-                                    />
+                            <Box
+                                sx={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    height: "100%",
+                                    width: "100%",
+                                }}>
+                                <Card sx={{ maxWidth: 450 }}>
+                                    <CardActionArea>
+                                        {/* This is the image of the cards */}
+                                        <CardMedia
+                                            component="img"
+                                            height="140"
+                                            image={dummy}
+                                            alt="project name"
+                                        />
 
-                                    {/* This is the content of the cards */}
-                                    <CardContent>
-                                        <Typography
-                                            gutterBottom
-                                            variant="h5"
-                                            component="div">
-                                            {doneProjects.title}
-                                        </Typography>
-                                        <Typography
-                                            variant="body2"
-                                            sx={{ color: "text.secondary" }}>
-                                            {doneProjects.description}
-                                        </Typography>
-                                    </CardContent>
-                                </CardActionArea>
-                            </Card>
+                                        {/* This is the content of the cards */}
+                                        <CardContent>
+                                            <Typography
+                                                gutterBottom
+                                                variant="h5"
+                                                component="div">
+                                                {doneProjects.title}
+                                            </Typography>
+                                            <Typography
+                                                variant="body2"
+                                                sx={{
+                                                    color: "text.secondary",
+                                                }}>
+                                                {doneProjects.description}
+                                            </Typography>
+                                        </CardContent>
+                                    </CardActionArea>
+                                </Card>
+                            </Box>
                         </Grid>
                     ))}
                 </Grid>
