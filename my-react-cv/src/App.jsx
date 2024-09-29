@@ -23,7 +23,7 @@ const educationData = [
     },
     {
         universityName: "zealand academy of technologies and business",
-        fieldOfStudy: "marketing mangement",
+        fieldOfStudy: "ap graduate in marketing management",
         year: "sep. 2018 - sep. 2020",
     },
     {
