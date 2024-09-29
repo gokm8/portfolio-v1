@@ -15,7 +15,7 @@ const Education = ({ education }) => {
             <hr />
             {education.map((education, index) => (
                 <Grid container spacing={1} key={index}>
-                    <Grid size={{ xs: 6, md: 9 }}>
+                    <Grid size={{ xs: 7, md: 9 }}>
                         <Typography
                             variant="h5"
                             component="h3"
@@ -23,7 +23,7 @@ const Education = ({ education }) => {
                             {education.universityName}
                         </Typography>
                     </Grid>
-                    <Grid size={{ xs: 6, md: 3 }}>
+                    <Grid size={{ xs: 5, md: 3 }}>
                         <Typography
                             variant="body2"
                             component="p"
@@ -32,11 +32,12 @@ const Education = ({ education }) => {
                             {education.year}
                         </Typography>
                     </Grid>
-                    <Grid size={{ xs: 6, md: 12 }}>
+                    <Grid size={{ xs: 7, md: 12 }}>
                         <Typography
                             variant="body1"
                             component="p"
                             sx={{ color: "white.dark" }}
+                            marginBottom={3}
                             gutterBottom>
                             {education.fieldOfStudy}
                         </Typography>

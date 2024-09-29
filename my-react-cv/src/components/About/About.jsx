@@ -10,10 +10,10 @@ const About = ({ personalInformation }) => {
     return (
         <Box className="about__grid-container">
             <Grid container spacing={2}>
-                <Grid size={{ xs: 6, md: 1 }}>
+                <Grid size={{ xs: 3, md: 2 }}>
                     <Box className="about__logo"></Box>
                 </Grid>
-                <Grid size={{ xs: 6, md: 11 }}>
+                <Grid size={{ xs: 9, md: 10 }}>
                     <Typography
                         variant="h2"
                         component="h1"
@@ -25,12 +25,13 @@ const About = ({ personalInformation }) => {
                     {/* <hr /> */}
                     <Typography
                         variant="subtitle1"
-                        sx={{ color: "white.main" }}>
+                        sx={{ color: "white.main" }}
+                        gutterBottom>
                         Future Software Engineer | BEng in Software Technology @
                         SDU
                     </Typography>
                 </Grid>
-                <Grid size={{ xs: 6, md: 10 }}>
+                <Grid size={{ xs: 8, md: 10 }}>
                     <Box
                         sx={{
                             display: "flex",
@@ -46,7 +47,8 @@ const About = ({ personalInformation }) => {
                         </Typography>
                     </Box>
                 </Grid>
-                <Grid size={{ xs: 6, md: 2 }}>
+                {/* SOCIAL MEDIA ICONS */}
+                <Grid size={{ xs: 4, md: 2 }}>
                     <Box
                         sx={{
                             display: "flex",

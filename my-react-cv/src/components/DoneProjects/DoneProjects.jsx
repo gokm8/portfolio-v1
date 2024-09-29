@@ -22,7 +22,7 @@ function DoneProjects({ doneProject }) {
                 <Grid container spacing={3}>
                     {doneProject.map((doneProjects, index) => (
                         <Grid
-                            size={{ xs: 6, md: 6 }}
+                            size={{ xs: 12, md: 6 }}
                             key={index}
                             className="doneProjects__cards">
                             <Card sx={{ maxWidth: 345 }}>
