@@ -1,6 +1,7 @@
 .about__grid-container {
     margin-bottom: 25px;
     padding: 15px;
+    padding-bottom: 30px;
     border-radius: 10px;
     border: 2px solid rgba(39, 39, 42, 0.5); /* 50% opacity */
 }
