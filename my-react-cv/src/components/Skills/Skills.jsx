@@ -26,7 +26,12 @@ const Skills = ({ skills }) => {
                             }}>
                             <img
                                 src={skill.img}
-                                className="dark-image"
+                                // Apply the invert class to the express logo
+                                className={`dark-image ${
+                                    skill.technology === "express"
+                                        ? "invert-logo"
+                                        : ""
+                                }`}
                                 style={{
                                     width: "80px",
                                     height: "80px",

@@ -24,3 +24,8 @@
         filter: brightness(1);
     }
 }
+
+/* Invert the express logo from black to white*/
+.invert-logo {
+    filter: invert(100%);
+}

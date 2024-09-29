@@ -65,6 +65,12 @@ const skillsData = [
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
     },
     {
+        technology: "express",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg",
+        className: "invert-logo",
+    },
+
+    {
         technology: "postgresql",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
     },
