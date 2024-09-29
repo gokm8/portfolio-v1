@@ -26,6 +26,7 @@ const About = ({ personalInformation }) => {
                     <Typography
                         variant="h2"
                         component="h1"
+                        fontWeight="bold"
                         sx={{ color: "white.light" }}
                         gutterBottom>
                         {personalInformation.name}
