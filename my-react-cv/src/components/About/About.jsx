@@ -5,15 +5,24 @@ import Grid from "@mui/material/Grid2";
 import { LinkedIn, GitHub, Email } from "@mui/icons-material";
 import { palette } from "@mui/system";
 import { Box } from "@mui/material";
+import aboutMe from "../../assets/about/about__me.jpg";
 
 const About = ({ personalInformation }) => {
     return (
         <Box className="about__grid-container">
             <Grid container spacing={2}>
                 <Grid size={{ xs: 3, md: 2 }}>
-                    <Box className="about__logo"></Box>
+                    <img
+                        src={aboutMe}
+                        alt="About me"
+                        className="about__image"
+                    />
                 </Grid>
-                <Grid size={{ xs: 9, md: 10 }}>
+                {/* <Box> */}
+                <Grid
+                    size={{ xs: 9, md: 10 }}
+                    sx={{ marginTop: "22px", paddingLeft: "10px" }}
+                    className="about__first-section">
                     <Typography
                         variant="h2"
                         component="h1"
@@ -31,6 +40,7 @@ const About = ({ personalInformation }) => {
                         SDU
                     </Typography>
                 </Grid>
+                {/* </Box> */}
                 <Grid size={{ xs: 8, md: 10 }}>
                     <Box
                         sx={{

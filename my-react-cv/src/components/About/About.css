@@ -10,8 +10,37 @@
     border: 2px solid rgba(39, 39, 42, 0.5); /* 50% opacity */
 }
 
-.about__logo {
-    background-color: #16423c;
-    height: 100%;
-    width: 100%;
+/* Standard size */
+.about__image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+/* Smartphones (up to 600px) */
+@media (max-width: 600px) {
+    .about__image {
+        width: 69px;
+        height: 69px;
+        margin-top: 2.2rem;
+    }
+}
+.about__image {
+    z-index: 1;
+    transition: box-shadow 0.5s ease;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 4px 1px rgba(0, 123, 255, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 7px 4px rgba(0, 123, 255, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 4px 1px rgba(0, 123, 255, 0.7);
+    }
 }
