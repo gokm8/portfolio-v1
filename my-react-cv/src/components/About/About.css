@@ -19,6 +19,32 @@
     margin-top: 1rem;
 }
 
+/* Larger size for bigger screens */
+@media (min-width: 1441px) {
+    .about__image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about__first-section {
+        padding-left: 10px;
+    }
+}
+
+/* For mobile enheder (op til 767px) */
+@media (max-width: 767px) {
+    .about__first-section {
+        padding-left: 10px;
+    }
+}
+
+/* For laptops (768px til 1440px) */
+@media (min-width: 768px) and (max-width: 1440px) {
+    .about__first-section {
+        padding-left: 15px;
+    }
+}
+
 /* Smartphones (up to 600px) */
 @media (max-width: 600px) {
     .about__image {

@@ -21,13 +21,12 @@ const About = ({ personalInformation }) => {
                 {/* <Box> */}
                 <Grid
                     size={{ xs: 9, md: 10 }}
-                    sx={{ marginTop: "22px", paddingLeft: "10px" }}
+                    sx={{ marginTop: "28px" }}
                     className="about__first-section">
                     <Typography
                         variant="h2"
                         component="h1"
                         sx={{ color: "white.light" }}
-                        fontWeight="bold"
                         gutterBottom>
                         {personalInformation.name}
                     </Typography>
