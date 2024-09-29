@@ -12,6 +12,8 @@
     object-fit: cover;
     border-radius: 50%;
     margin-top: 1rem;
+    transition: box-shadow 0.5s ease;
+    animation: pulse 1.5s infinite;
 }
 
 @media (min-width: 1441px) {
@@ -46,11 +48,6 @@
         height: 69px;
         margin-top: 2.2rem;
     }
-}
-.about__image {
-    z-index: 1;
-    transition: box-shadow 0.5s ease;
-    animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
