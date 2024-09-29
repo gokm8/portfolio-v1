@@ -43,7 +43,7 @@ const About = ({ personalInformation }) => {
                             variant="body2"
                             component="p"
                             sx={{ color: "white.dark" }}>
-                            Any queries? Email me @ {personalInformation.mail}
+                            Any inquiries? Email me @ {personalInformation.mail}
                         </Typography>
                     </Box>
                 </Grid>

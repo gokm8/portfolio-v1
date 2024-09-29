@@ -10,7 +10,7 @@ function OngoingProjects({ project }) {
                 variant="h4"
                 component="h2"
                 sx={{ color: "white.main" }}>
-                currently projects 🛠️
+                current projects 🛠️
             </Typography>
             <hr />
             {project.map((projects, index) => (

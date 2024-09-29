@@ -16,7 +16,7 @@ function DoneProjects({ doneProject }) {
                 variant="h4"
                 component="h2"
                 sx={{ color: "white.main", mb: "15px" }}>
-                projects 🏗️
+                completed projects 🏗️
             </Typography>
             <Box>
                 <Grid container spacing={3}>
