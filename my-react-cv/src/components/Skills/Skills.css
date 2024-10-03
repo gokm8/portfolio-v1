@@ -2,30 +2,27 @@
     margin-bottom: 3rem;
 }
 
-@media (min-width: 600px) {
-    .skills__darkness-text-icon {
-        filter: brightness(0.5);
-        transition: filter 0.3s ease;
-    }
+.skills__darkness-text-icon {
+    filter: brightness(0.5);
+    transition: filter 0.3s ease;
+}
 
+/* hover effect for larger screens */
+@media (min-width: 600px) {
     .skills__darkness-text-icon:hover {
         filter: brightness(1);
     }
 }
 
+/* focus and active effect for smaller screens */
 @media (max-width: 600px) {
-    .skills__darkness-text-icon {
-        filter: brightness(0.5);
-        transition: filter 0.3s ease;
-    }
-
     .skills__darkness-text-icon:focus,
     .skills__darkness-text-icon:active {
         filter: brightness(1);
     }
 }
 
-/* Invert the express logo from black to white*/
+/* invert the express logo from black to white */
 .invert-logo {
     filter: invert(100%);
 }
