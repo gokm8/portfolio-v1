@@ -11,7 +11,7 @@ Visit my portfolio at: [gokm8.github.io/portfolio](https://gokm8.github.io/portf
 
 The portfolio is deployed using **GitHub Pages**.
 
-## Contributing
+## Contribution
 
 This is a personal project, so contributions are currently not being accepted.
 
