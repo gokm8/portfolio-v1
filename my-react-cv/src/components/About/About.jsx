@@ -10,7 +10,7 @@ import portrait from "../../assets/about/about__me.jpg";
 const About = ({ personalInformation }) => {
     return (
         <Box className="about__grid-container">
-            <Grid container spacing={2}>
+            <Grid container spacing={2} sx={{}}>
                 {/* IMAGE */}
                 <Grid size={{ xs: 3, md: 2 }}>
                     <img
@@ -50,6 +50,7 @@ const About = ({ personalInformation }) => {
                             alignItems: "center",
                             height: "100%",
                             width: "100%",
+                            marginTop: 1,
                         }}>
                         <Typography
                             variant="body2"
@@ -67,6 +68,7 @@ const About = ({ personalInformation }) => {
                             display: "flex",
                             justifyContent: "space-between",
                             widows: "100%",
+                            marginTop: 1.5,
                         }}>
                         <a
                             href="https://www.linkedin.com/in/gokmenozbayir/"

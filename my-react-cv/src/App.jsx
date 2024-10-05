@@ -5,7 +5,8 @@ import OngoingProjects from "./components/OngoingProjects/OngoingProjects";
 import DoneProjects from "./components/DoneProjects/DoneProjects";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
-// import portrait from "../../assets/about/about__portrait.jpg";
+import todoProject from "./assets/doneProjects/todo-list.png";
+import ticTacToe from "./assets/doneProjects/tictactoe.png";
 
 // Object of personal informations
 const personalInfo = {
@@ -106,9 +107,8 @@ const onGoingProjectData = [
         description: "a simple tool to generate qr codes from text or url's.",
     },
     {
-        title: "project: todo list",
-        description:
-            "a task management app that allows users to add, edit, and delete tasks.",
+        title: "project: pending",
+        description: "pending",
     },
 ];
 
@@ -118,11 +118,13 @@ const doneProjectsData = [
         title: "project: todo list",
         description:
             "a task management app that allows users to add, edit, and delete tasks.",
+        img: todoProject,
     },
     {
-        title: "project: todo list",
+        title: "project: tic-tac-toe",
         description:
-            "a task management app that allows users to add, edit, and delete tasks.",
+            "a classic two-player game where users take turns placing X's and O's on a grid.",
+        img: ticTacToe,
     },
 ];
 
